@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&family=Ysabeau+Infant:wght@300;500&display=swap');
+
+
+body{
+    background-color: aquamarine;
+    font-family: "Ysabeau Infant" , "varela";
+    
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    font-family: "Ysabeau Infant" , "varela";
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 65px;
+    color: white;
+    align-items: center;
+    background-color: black;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+nav ul li{
+    padding-left: 10px;
+}
+
+
+
+.brandlogo img{
+    height: 40px;
+    
+}
+
+.brandlogo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+button{
+    display: inline;
+}
+
+.container{
+    min-height: 65vh;
+    color: white;
+    font-family: "Ysabeau Infant" , "varela";
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 20px;
+    padding: 34px;
+    background-image: url("./images/music-background.jpg");
+    background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.icons{
+    margin-top: 10px;
+    cursor: pointer;
+    
+
+}
+
+.icons i{
+    padding: 10px;
+}
+
+
+#myprogressbar{
+    width: 60vw;
+    cursor: pointer;
+
+    
+    
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    width: 100%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.songitem img{
+    height: 40px;
+    margin: 0 20px ;
+    border-radius: 40%;
+
+}
+
+.songitemplay{
+    padding-right: 20px;
+    padding-left: 10px;
+    
+}
+
+.songitem i{
+    cursor: pointer;
+}
+
+.songinfobottom{
+    position: absolute;
+    left: 20vw;
+    top: 6vh;
+    font-size: 30px;
+    font-family: "Ysabeau Infant" , "varela";
+
+
+}
+
+.songinfobottom img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}

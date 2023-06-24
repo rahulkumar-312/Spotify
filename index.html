@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <nav>
+        <ul>
+          <li class="brandlogo">
+            <img src="./images/spotify-logo-green.png" alt="LOGO" />
+            <span></span>
+          </li>
+          <li>Home</li>
+          <li>About</li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container">
+      <div class="songlist">
+        <h1>Best Songs of Sidhu Moosewala</h1>
+        <div class="songitems">
+          <div class="songitem">
+            <img src="./images/295.jpg" alt="295" />
+            <span>295 by Sidhu Moosewala</span>
+            <span class="songitemplay"
+              >04:32 <span><i id="0" class="fa-solid songitemplay fa-1x fa-play-circle"></i></span>
+            </span>
+          </div>
+        </div>
+        <div class="songitems">
+          <div class="songitem">
+            <img src="./images/hustler.jpg" alt="295" />
+            <span>Hustler by Sidhu Moosewala</span>
+            <span class="songitemplay"
+              >00:48 <span><i id="1"  class="fa-solid songitemplay fa-1x fa-play-circle"></i></span>
+            </span>
+          </div>
+        </div>
+        <div class="songitems">
+          <div class="songitem">
+            <img src="./images/Mehnge-Ne-Moti.jpg" alt="295" />
+            <span>Mehnge by Sidhu Moosewala</span>
+            <span class="songitemplay"
+              >03:52 <span><i id="2"  class="fa-solid songitemplay fa-1x fa-play-circle"></i></span>
+            </span>
+          </div>
+        </div>
+        <div class="songitems">
+          <div class="songitem">
+            <img src="./images/last-ride.jpg" alt="295" />
+            <span>Mera Naa by Sidhu Moosewala</span>
+            <span class="songitemplay"
+              >03:21 <span><i id="3"  class="fa-solid songitemplay fa-1x fa-play-circle"></i></span>
+            </span>
+          </div>
+        </div>
+        <div class="songitems">
+          <div class="songitem">
+            <img src="./images/NeverFold.jpg" alt="295" />
+            <span>Never Fold by Sidhu Moosewala</span>
+            <span class="songitemplay"
+              >03:03 <span><i id="4"  class="fa-solid songitemplay fa-1x fa-play-circle"></i></span>
+            </span>
+          </div>
+        </div>
+        <div class="songitems">
+          <div class="songitem">
+            <img src="./images/Power.jpg" alt="295" />
+            <span>Power by Sidhu Moosewala</span>
+            <span class="songitemplay"
+              >03:48 <span><i id="5"  class="fa-solid songitemplay fa-1x fa-play-circle"></i></span>
+            </span>
+          </div>
+        </div>
+        <div class="songitems">
+          <div class="songitem">
+            <img src="./images/last-ride.jpg" alt="295" />
+            <span>The Last Ride by Sidhu Moosewala</span>
+            <span class="songitemplay"
+              >04:35 <span><i id="6"  class="fa-solid songitemplay fa-1x fa-play-circle"></i></span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+      <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100" />
+      <div class="icons">
+        <!-- fontawesome icons -->
+        <i class="fa-solid fa-4x fa-step-backward" id="previous"></i>
+        <i class="fa-solid fa-4x fa-play-circle" id="masterPlay"></i>
+        <i class="fa-solid fa-4x fa-step-forward" id="next" ></i>
+      </div>
+
+      <div class="songinfobottom">
+        <img src="./images/playing.gif.gif" alt="gif" width="70px" id="gif" /> <span id="masterSongName">295 by Sidhu Moosewala</span>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/1f0e735d34.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
